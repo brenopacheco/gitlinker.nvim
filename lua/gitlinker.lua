@@ -26,7 +26,7 @@ M.actions = require("gitlinker.actions")
 --    ["githostname.tld"] = <func> -- where <func> is a function that takes a
 --    url_data table and returns the url
 --   },
---  mappings = "<keys>"-- keys for normal and visual mode keymaps
+--  mappings = "<keys>" -- keys for normal and visual mode keymaps (or false to disable)
 -- }
 -- @param user_opts a table to override options passed in M.setup()
 function M.setup(config)
